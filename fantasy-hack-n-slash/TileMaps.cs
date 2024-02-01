@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace fantasy_hack_n_slash
 {
-    internal class Archer
+    internal class TileMaps
     {
 
     }
