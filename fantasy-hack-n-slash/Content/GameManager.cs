@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace fantasy-hack-n-slash.Content
+namespace fantasy_hack_n_slash
 {
     internal class GameManager
-{
-}
+    {
+        
+    }
 }
