@@ -1,20 +1,11 @@
 {
   "version": 2,
-<<<<<<< Updated upstream
   "dgSpecHash": "+//R3KNo/ifM/49Le4kAVAy/a9eN4/4srr320e2qIViCDXiGY5nfVpafEaAvJx6BRTP889KdGkHhZEAZXbuT0w==",
   "success": true,
   "projectFilePath": "C:\\Users\\christoffer.ivarss1\\Documents\\GitHub\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\fantasy-hack-n-slash.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\christoffer.ivarss1\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
     "C:\\Users\\christoffer.ivarss1\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
-=======
-  "dgSpecHash": "YSDsYywTYzPQQY40Q5YxukBUIKjNh758DAvnkGI6e0uvzQf7ilBmNQZr7yUdVSz1gxYgdMfuPxJiLnvva1lc3A==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\enok.hunhammer\\Documents\\GitHub\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\fantasy-hack-n-slash.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\enok.hunhammer\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
-    "C:\\Users\\enok.hunhammer\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
->>>>>>> Stashed changes
   ],
   "logs": []
 }

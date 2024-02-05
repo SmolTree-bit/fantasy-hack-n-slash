@@ -39,12 +39,27 @@ namespace fantasy_hack_n_slash
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
-            Data.DataUpdate(gameTime);
 
+            //Här sätts de metoder som alltid ska köras oavsett vilket gamestate.
+            Data.DataUpdate(gameTime);
             gameManager.Update(gameTime);
 
-            // TODO: Add your update logic here
 
+            switch(MenuManager.CurrentGameState())
+            {
+               
+                case (MenuManager.GameStates.MainMenu):
+
+                    break;
+                
+                case (MenuManager.GameStates.Playing):
+
+                    break;
+               
+                case (MenuManager.GameStates.PauseMenu):
+
+                    break;
+            }
             base.Update(gameTime);
         }
 
