@@ -9,6 +9,8 @@ namespace fantasy_hack_n_slash
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+        GameManager gameManager = new GameManager();
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -27,6 +29,9 @@ namespace fantasy_hack_n_slash
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
+            Data.hitBoxImage = new Texture2D(GraphicsDevice, 1, 1);
+            Data.hitBoxImage.SetData<Color>(new Color[] { Color.White });
+
             // TODO: use this.Content to load your game content here
         }
 
@@ -36,6 +41,8 @@ namespace fantasy_hack_n_slash
                 Exit();
             Data.DataUpdate(gameTime);
 
+            gameManager.Update(gameTime);
+
             // TODO: Add your update logic here
 
             base.Update(gameTime);
@@ -43,7 +50,9 @@ namespace fantasy_hack_n_slash
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Black);
+
+            gameManager.Draw(_spriteBatch);
 
             // TODO: Add your drawing code here
 
