@@ -4,7 +4,6 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -18,9 +17,9 @@ namespace fantasy_hack_n_slash
             Playing,
             PauseMenu
         }
-        private static Rectangle 
-           startBox = new Rectangle(705, 404, 1215 - 705, 529 - 404),
-           exitBox = new Rectangle(765, 572, 1154 - 765, 692 - 572);
+        private static Rectangle
+       startBox = new Rectangle(705, 404, 1215 - 705, 529 - 404),
+       exitBox = new Rectangle(765, 572, 1154 - 765, 692 - 572);
         private static GameStates gameState = GameStates.MainMenu;
         public static bool drawStartEffect = false, drawExitEffect = false;
 
@@ -57,13 +56,13 @@ namespace fantasy_hack_n_slash
 
         public static void Draw(SpriteBatch _spriteBatch)
         {
-            if(!drawStartEffect)
-            _spriteBatch.Draw(Data.startGame, Vector2.Zero, Color.White);
+            if (!drawStartEffect)
+                _spriteBatch.Draw(Data.startGame, Vector2.Zero, Color.White);
             else
                 _spriteBatch.Draw(Data.startGame, Vector2.Zero, Color.Red);
 
             if (!drawExitEffect)
-            _spriteBatch.Draw(Data.endGame, Vector2.Zero, Color.White);
+                _spriteBatch.Draw(Data.endGame, Vector2.Zero, Color.White);
             else
                 _spriteBatch.Draw(Data.endGame, Vector2.Zero, Color.Red);
 
@@ -74,8 +73,8 @@ namespace fantasy_hack_n_slash
             */
         }
 
-       
+
     }
-   
+
 
 }

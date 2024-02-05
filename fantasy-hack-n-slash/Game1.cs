@@ -38,7 +38,11 @@ namespace fantasy_hack_n_slash
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             Data.tilesetTexture = Content.Load<Texture2D>("tileset");
+            Data.startGame = Content.Load<Texture2D>("MainMenuStart");
+            Data.endGame = Content.Load<Texture2D>("MainMenuExit");
             Data.level1 = new TileMaps(30, 18, Data.tilesetTexture, 16, 6);
+            Data.pixelTexture = new Texture2D(GraphicsDevice, 1, 1);
+            Data.pixelTexture.SetData(new Color[] { Color.White });
             Data.hitBoxImage = new Texture2D(GraphicsDevice, 1, 1);
             Data.hitBoxImage.SetData<Color>(new Color[] { Color.White });
 
@@ -54,7 +58,7 @@ namespace fantasy_hack_n_slash
 
             //Här sätts de metoder som alltid ska köras oavsett vilket gamestate.
             Data.DataUpdate(gameTime);
-            gameManager.Update(gameTime);
+            GameManager.Update(gameTime);
 
 
             switch(MenuManager.CurrentGameState())
@@ -84,7 +88,6 @@ namespace fantasy_hack_n_slash
             // Skriv allt här inne som ska synas i spelet som t.ex player, enemy, items
             Data.level1.Draw(_spriteBatch);
             GraphicsDevice.Clear(Color.Black);
-            gameManager.Draw(_spriteBatch);
             _spriteBatch.End();
 
 
@@ -92,6 +95,7 @@ namespace fantasy_hack_n_slash
 
             GraphicsDevice.SetRenderTarget(null);
             _spriteBatch.Begin(samplerState: SamplerState.PointClamp, blendState: BlendState.NonPremultiplied);
+            
             _spriteBatch.Draw(
                 Data.mainTarget,
                 Vector2.Zero,
@@ -102,6 +106,8 @@ namespace fantasy_hack_n_slash
                 5,
                 SpriteEffects.None,
                 0f);
+            GameManager.Draw(_spriteBatch);
+
             _spriteBatch.End();
 
 
