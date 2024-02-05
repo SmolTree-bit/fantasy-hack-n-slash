@@ -27,9 +27,6 @@ namespace fantasy_hack_n_slash
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            Data.hitBoxImage = new Texture2D(GraphicsDevice, 1, 1);
-            Data.hitBoxImage.SetData<Color>(new Color[] { Color.White });
-
             // TODO: use this.Content to load your game content here
         }
 
