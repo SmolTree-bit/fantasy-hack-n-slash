@@ -16,6 +16,8 @@ namespace fantasy_hack_n_slash
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
+            _graphics.PreferredBackBufferHeight = 1080;
+            _graphics.PreferredBackBufferWidth = 1920;
         }
 
         protected override void Initialize()
