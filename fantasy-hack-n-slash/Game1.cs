@@ -41,6 +41,8 @@ namespace fantasy_hack_n_slash
                 Exit();
             Data.DataUpdate(gameTime);
 
+            gameManager.Update(gameTime);
+
             // TODO: Add your update logic here
 
             base.Update(gameTime);
