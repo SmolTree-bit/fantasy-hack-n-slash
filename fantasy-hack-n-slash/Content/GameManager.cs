@@ -20,6 +20,9 @@ namespace fantasy_hack_n_slash
         public void Draw(SpriteBatch spriteBatch)
         {
             scoreManager.Draw(spriteBatch);
+           
+
+
         }
     }
 }
