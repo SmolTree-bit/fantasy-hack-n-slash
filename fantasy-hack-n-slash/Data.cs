@@ -14,6 +14,6 @@ namespace fantasy_hack_n_slash
         public static Random rnd = new Random();
 
         public static Texture2D
-            hitBoxImage;
+            hitBox;
     }
 }
