@@ -9,7 +9,7 @@ namespace fantasy_hack_n_slash
 {
     internal class PlatformController
     {
-        /*int horizontalRayCount;
+        int horizontalRayCount;
         int verticalRayCount;
         int tileSize;
 
@@ -181,7 +181,6 @@ namespace fantasy_hack_n_slash
             {
                 above = below = left = right = false;
             }
-        }
-        */
+        }S
     }
 }
