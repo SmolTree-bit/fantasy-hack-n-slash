@@ -102,23 +102,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\algot.warhed\\.nuget\\packages\\": {},
+    "C:\\Users\\enok.hunhammer\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\algot.warhed\\Documents\\GitHub\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\fantasy-hack-n-slash.csproj",
+      "projectUniqueName": "C:\\Users\\enok.hunhammer\\Documents\\GitHub\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\fantasy-hack-n-slash.csproj",
       "projectName": "fantasy-hack-n-slash",
-      "projectPath": "C:\\Users\\algot.warhed\\Documents\\GitHub\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\fantasy-hack-n-slash.csproj",
-      "packagesPath": "C:\\Users\\algot.warhed\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\algot.warhed\\Documents\\GitHub\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\obj\\",
+      "projectPath": "C:\\Users\\enok.hunhammer\\Documents\\GitHub\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\fantasy-hack-n-slash.csproj",
+      "packagesPath": "C:\\Users\\enok.hunhammer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\enok.hunhammer\\Documents\\GitHub\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\algot.warhed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\enok.hunhammer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
