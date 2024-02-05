@@ -34,6 +34,7 @@ namespace fantasy_hack_n_slash
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
+            Data.DataUpdate(gameTime);
 
             // TODO: Add your update logic here
 
