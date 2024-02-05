@@ -102,19 +102,37 @@
     ]
   },
   "packageFolders": {
+<<<<<<< Updated upstream
     "C:\\Users\\christoffer.ivarss1\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\enok.hunhammer\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+>>>>>>> Stashed changes
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "C:\\Users\\christoffer.ivarss1\\Documents\\GitHub\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\fantasy-hack-n-slash.csproj",
       "projectName": "fantasy-hack-n-slash",
       "projectPath": "C:\\Users\\christoffer.ivarss1\\Documents\\GitHub\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\fantasy-hack-n-slash.csproj",
       "packagesPath": "C:\\Users\\christoffer.ivarss1\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\christoffer.ivarss1\\Documents\\GitHub\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\enok.hunhammer\\Documents\\GitHub\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\fantasy-hack-n-slash.csproj",
+      "projectName": "fantasy-hack-n-slash",
+      "projectPath": "C:\\Users\\enok.hunhammer\\Documents\\GitHub\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\fantasy-hack-n-slash.csproj",
+      "packagesPath": "C:\\Users\\enok.hunhammer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\enok.hunhammer\\Documents\\GitHub\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\obj\\",
+>>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "configFilePaths": [
+<<<<<<< Updated upstream
         "C:\\Users\\christoffer.ivarss1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\enok.hunhammer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> Stashed changes
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
