@@ -32,6 +32,8 @@ namespace fantasy_hack_n_slash
             Data.hitBoxImage = new Texture2D(GraphicsDevice, 1, 1);
             Data.hitBoxImage.SetData<Color>(new Color[] { Color.White });
 
+            Data.gameFont = Content.Load<SpriteFont>("gameFont");
+
             // TODO: use this.Content to load your game content here
         }
 
@@ -67,8 +69,10 @@ namespace fantasy_hack_n_slash
         {
             GraphicsDevice.Clear(Color.Black);
 
-            gameManager.Draw(_spriteBatch);
 
+            _spriteBatch.Begin();
+            gameManager.Draw(_spriteBatch);
+            _spriteBatch.End();
             // TODO: Add your drawing code here
 
             base.Draw(gameTime);

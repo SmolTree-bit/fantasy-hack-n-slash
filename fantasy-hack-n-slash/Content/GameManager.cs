@@ -10,7 +10,8 @@ namespace fantasy_hack_n_slash
 {
     internal class GameManager
     {
-        
+        HighScoreManager scoreManager = new HighScoreManager();
+
         public void Update(GameTime gameTime)
         {
 
@@ -18,7 +19,7 @@ namespace fantasy_hack_n_slash
 
         public void Draw(SpriteBatch spriteBatch)
         {
-
+            scoreManager.Draw(spriteBatch);
         }
     }
 }
