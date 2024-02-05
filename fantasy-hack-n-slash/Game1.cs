@@ -33,8 +33,12 @@ namespace fantasy_hack_n_slash
 
             Data.hitBoxImage = new Texture2D(GraphicsDevice, 1, 1);
             Data.hitBoxImage.SetData<Color>(new Color[] { Color.White });
-
+            Data.startGame = Content.Load<Texture2D>("MainMenuStart");
+            Data.endGame = Content.Load<Texture2D>("MainMenuExit");
             Data.gameFont = Content.Load<SpriteFont>("gameFont");
+            Data.pixelTexture = new Texture2D(GraphicsDevice, 1, 1);
+            Data.pixelTexture.SetData(new Color[] { Color.White });
+
 
             // TODO: use this.Content to load your game content here
         }
@@ -49,21 +53,7 @@ namespace fantasy_hack_n_slash
             gameManager.Update(gameTime);
 
 
-            switch(MenuManager.CurrentGameState())
-            {
-               
-                case (MenuManager.GameStates.MainMenu):
-
-                    break;
-                
-                case (MenuManager.GameStates.Playing):
-
-                    break;
-               
-                case (MenuManager.GameStates.PauseMenu):
-
-                    break;
-            }
+           
             base.Update(gameTime);
         }
 
@@ -73,7 +63,9 @@ namespace fantasy_hack_n_slash
 
 
             _spriteBatch.Begin();
+
             gameManager.Draw(_spriteBatch);
+
             _spriteBatch.End();
             // TODO: Add your drawing code here
 
