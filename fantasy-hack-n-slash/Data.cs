@@ -22,6 +22,10 @@ namespace fantasy_hack_n_slash
         {
             keyboard = Keyboard.GetState();
         }
+
+        public static SpriteFont gameFont;
+
+        public static int playerScore;
     }
     
 }
