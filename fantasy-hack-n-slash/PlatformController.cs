@@ -181,6 +181,6 @@ namespace fantasy_hack_n_slash
             {
                 above = below = left = right = false;
             }
-        }S
+        }
     }
 }
