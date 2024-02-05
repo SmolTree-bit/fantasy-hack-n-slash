@@ -62,7 +62,7 @@ namespace fantasy_hack_n_slash
         {
             using (StreamWriter writer = new StreamWriter("highscore.txt"))
             {
-                writer.Write(score);
+                writer.Write(score); 
             }
         }
     }
