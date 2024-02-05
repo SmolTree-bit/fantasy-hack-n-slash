@@ -17,7 +17,7 @@ namespace fantasy_hack_n_slash
         public static Random rnd = new Random();
 
         public static Texture2D
-            hitBox;
+            hitBoxImage;
         public static void DataUpdate(GameTime gametime)
         {
             keyboard = Keyboard.GetState();
