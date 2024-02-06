@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\christoffer.ivarss1\\Documents\\GitHub\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\fantasy-hack-n-slash.csproj": {}
+    "C:\\Users\\rutger.fischer\\Desktop\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\fantasy-hack-n-slash.csproj": {}
   },
   "projects": {
-    "C:\\Users\\christoffer.ivarss1\\Documents\\GitHub\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\fantasy-hack-n-slash.csproj": {
+    "C:\\Users\\rutger.fischer\\Desktop\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\fantasy-hack-n-slash.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\christoffer.ivarss1\\Documents\\GitHub\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\fantasy-hack-n-slash.csproj",
+        "projectUniqueName": "C:\\Users\\rutger.fischer\\Desktop\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\fantasy-hack-n-slash.csproj",
         "projectName": "fantasy-hack-n-slash",
-        "projectPath": "C:\\Users\\christoffer.ivarss1\\Documents\\GitHub\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\fantasy-hack-n-slash.csproj",
-        "packagesPath": "C:\\Users\\christoffer.ivarss1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\christoffer.ivarss1\\Documents\\GitHub\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\obj\\",
+        "projectPath": "C:\\Users\\rutger.fischer\\Desktop\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\fantasy-hack-n-slash.csproj",
+        "packagesPath": "C:\\Users\\rutger.fischer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rutger.fischer\\Desktop\\fantasy-hack-n-slash\\fantasy-hack-n-slash\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\christoffer.ivarss1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rutger.fischer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

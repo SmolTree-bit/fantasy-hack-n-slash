@@ -19,6 +19,7 @@ namespace fantasy_hack_n_slash
         public static KeyboardState keyboard;
         public static MouseState mouse;
 
+        public static Texture2D test;
 
         public static Random rnd = new Random();
 
