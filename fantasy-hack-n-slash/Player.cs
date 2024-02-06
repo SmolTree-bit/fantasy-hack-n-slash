@@ -34,9 +34,9 @@ namespace Plattformer
             boundingBox.Location = position.ToPoint();
             boundingBox.Width = 18;                                 
             boundingBox.Height = 32;                                
-            /*controller = new PlatformController();
+            controller = new PlatformController();
             controller.Initialize(boundingBox, 5, 3, 16); 
-            controller.SetCollisionMap(Data.level1.collisionMap);*/
+            controller.SetCollisionMap(Data.level1.collisionMap);
 
         }
 
@@ -71,14 +71,14 @@ namespace Plattformer
 
             //Kollar om nuvarande hastighet kommer krocka med något innan velocity sätts. 
             velocity.Y += gravity;
-            /*velocity = controller.CalculateVelocity(velocity, boundingBox);*/
+            velocity = controller.CalculateVelocity(velocity, boundingBox);
             position += velocity;
             boundingBox.Location = position.ToPoint();
 
             //Kollar om man är på marken
             if (!isGrounded)
             {
-               /* if (controller.collisions.below)
+                if (controller.collisions.below)
                 {
                     isGrounded = true;
                     velocity.Y = 0;
@@ -89,7 +89,7 @@ namespace Plattformer
                     {
                         isGrounded = false;
                     }
-                }*/
+                }
             }
         }
 
@@ -103,5 +103,6 @@ namespace Plattformer
 
         }
     }
+
 
 }

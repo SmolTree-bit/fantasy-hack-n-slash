@@ -14,6 +14,7 @@ namespace fantasy_hack_n_slash
     {
         HighScoreManager scoreManager = new HighScoreManager();
 
+        Plattformer.Player player = new Plattformer.Player(Data.hitBoxImage, new Vector2(0, 0));
 
         private static GameStates gameState = GameStates.MainMenu;
 
