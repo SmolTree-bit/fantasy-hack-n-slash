@@ -29,14 +29,3 @@ Content/obj/
 # Ignore temporary files
 *~
 *.swp
-*.vsidx
-*.vsidx
-*.vsidx
-*.lock
-*.cache
-*.cache
-*.editorconfig
-*.json
-*.props
-*.json
-*.cache
